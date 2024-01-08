@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "L5NfudNb9eVt2IjGCgs8ppc/3E/C4VWC34gYB0bzWJPPMoX61C7uwRm8F7MFzYskx3ow9Q1eYgX22Ls6lTrQ7w==",
+  "dgSpecHash": "Vk9TeP/l7uyD8G4zed/CeG9RdFV7l1hdD8UlL6PdUV9LSZjSa3Dm5KT+HNDLNe+bY/+YQukSiodlFnEKDFNTag==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tiago Ribeiro\\OneDrive\\Documentos\\GitHub\\WPFCurrecyConverter\\WPFCurrecyConverter\\WPFCurrecyConverter.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Tiago Ribeiro\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'FontAwesome.WPF 4.7.0.9' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "FontAwesome.WPF",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

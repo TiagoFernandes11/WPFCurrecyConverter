@@ -1,4 +1,5 @@
-Simples projeto para demonstrar manipulação de inputs de usuarios por meio da GUI \n
+Simples projeto para demonstrar manipulação de inputs de usuarios por meio da GUI 
+
 A conversão não é nem um pouco precisa, não baseie suas compras nela kk
 
 

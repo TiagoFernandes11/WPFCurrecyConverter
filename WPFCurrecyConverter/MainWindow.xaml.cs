@@ -38,8 +38,8 @@ namespace WPFCurrecyConverter
             //Add rows in the Datatable with text and value
             dtCurrency.Rows.Add("--SELECT--", 0);
             dtCurrency.Rows.Add("INR", 1);
-            dtCurrency.Rows.Add("USD", 75);
-            dtCurrency.Rows.Add("EUR", 85);
+            dtCurrency.Rows.Add("USD", 2);
+            dtCurrency.Rows.Add("EUR", 1);
             dtCurrency.Rows.Add("SAR", 20);
             dtCurrency.Rows.Add("POUND", 5);
             dtCurrency.Rows.Add("DEM", 43);
@@ -151,7 +151,7 @@ namespace WPFCurrecyConverter
             //Regular Expression is used to add regex.
             // Add Library using System.Text.RegularExpressions;
             Regex regex = new Regex("^[0-9]+");
-            e.Handled = regex.IsMatch(e.Text);
+            e.Handled = !regex.IsMatch(e.Text);
         }
         #endregion
     }
